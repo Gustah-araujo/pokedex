@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.pokemon-card {
+    transition: 500ms;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+}
